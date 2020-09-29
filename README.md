@@ -10,7 +10,7 @@ sbt clean compile runAll
 
 ```
 Consumes: application/json
-Produces: appication/json
+Produces: application/json
 Valid Status values are either 'Assigned' or 'Completed'
 All successful calls currently return 200
 POST /task with json-body {name: String, description: String, reporter: String, assignee: String} - create new task
